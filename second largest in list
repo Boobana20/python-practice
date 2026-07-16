@@ -1,0 +1,14 @@
+n=[10,5,30,50,20]
+largest=n[0]
+second=n[0]
+for i in range(len(n)):
+    if(n[i]>largest):
+        largest=n[i]
+for i in range(len(n)):        
+ if(n[i]!=largest):
+     
+   if(n[i]>second):
+      second=n[i]
+      
+print("second largest",second)   
+print("largest",largest)
