@@ -1,0 +1,6 @@
+n=[10,5,30,50,20]
+smallest=n[0]
+for i in range(len(n)):
+    if(n[i]<smallest):
+        smallest=n[i]
+print(smallest)     
